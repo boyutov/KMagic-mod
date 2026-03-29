@@ -11,12 +11,12 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item Ruby = registerItem("ruby", new Item(new FabricItemSettings()));
-    public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
+//    public static final Item Ruby = registerItem("ruby", new Item(new FabricItemSettings()));
+//    public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(Ruby);
-        entries.add(RAW_RUBY);
+//        entries.add(Ruby);
+//        entries.add(RAW_RUBY);
     }
 
     private static Item registerItem(String name, Item item) {

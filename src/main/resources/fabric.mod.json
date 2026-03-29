@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "kmagic",
+	"version": "${version}",
+	"name": "KMagic",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Kushtarbek!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/kmagic/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"mc.kmagic.KMagic"
+		],
+		"client": [
+			"mc.kmagic.KMagicClient"
+		],
+		"fabric-datagen": [
+			"mc.kmagic.KMagicDataGenerator"
+		]
+	},
+	"mixins": [
+		"kmagic.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
